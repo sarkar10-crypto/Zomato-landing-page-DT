@@ -64,6 +64,8 @@
 .input_container_location, .input_container_search{
     padding: 6px;
     border: none;
+    border-radius: 15px;
+    width: 96%;
     outline: none;
 
 }
@@ -74,6 +76,7 @@
 .input_container_search{
     width: 65%;
 }
+
 
 
 
@@ -93,5 +96,16 @@
     .navbar{
         padding: 16px;
     }
+    .hero_section_container{
+        flex-direction: column;
+        background-color: transparent;
+        width: 100%;
+    }
+    .input_container_location.input_container_search{
+        padding: 15px;
+        border-radius: 10px;
+        width: 95%;
+    }
+
 
 }
